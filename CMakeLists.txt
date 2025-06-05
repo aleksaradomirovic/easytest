@@ -24,6 +24,3 @@ cmake_minimum_required(VERSION 3.25)
 project(easyconfig LANGUAGES NONE)
 
 include(scripts/cmake/Test.cmake)
-
-easytest_add_test_category(test1)
-easytest_add_test(test2 PARENT test1)
