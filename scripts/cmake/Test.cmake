@@ -82,6 +82,7 @@ function(easytest_add_gtest _NAME)
 
     add_executable(
         "${_NAME}"
+        EXCLUDE_FROM_ALL
             ${_SOURCES}
             ${_UNPARSED_ARGUMENTS}
     )
